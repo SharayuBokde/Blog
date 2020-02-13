@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="conatiner">
+    <div class="card">
+      <div class="card-body">
+          <h3>{{post.title}}</h3>
+          <hr>
+          <h5 class="card-text">{{post.author.username}}</h5>
+          <hr>
+          <p class="card-text">{{post.content}}</p>
+          <hr>
+          <h6 class="card-text">{{post.date.strftime('%B %d, %Y')}}</h6>
+        <hr>
+        {% if current_user.username==post.author.username %}
+          <div class="row">
+            <div class="col-md-6">
+              <a class="dropdown-item" style="background-color:greenyellow" href="{{ url_for('updatepost',id=post.id)}} "> Update Post </a>
+            </div>
+            <div class="col-md-6">
+              <a class="dropdown-item" style="background-color:red" href="{{ url_for('deletepost', title = post.title)}} "> Delete Post </a>
+            </div>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+{% endblock content %}
