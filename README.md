@@ -12,14 +12,14 @@
 </ul>
 <h3>Some images of the project : </h3>
 Homepage :
-<img src="Blog-Flask/home.jpg" height="1000">
+<img src="Blog-Flask/home.jpg" height="500">
 Register : 
-<img src="Blog-Flask/signup.jpg" height="1000">
-<img src="Blog-Flask/register.jpg" height="1000">
+<img src="Blog-Flask/signup.jpg" height="500">
+<img src="Blog-Flask/register.jpg" height="500">
 Login : 
-<img src="Blog-Flask/login.jpg" height="1000">
-<img src="Blog-Flask/menu.jpg" height="1000">
+<img src="Blog-Flask/login.jpg" height="500">
+<img src="Blog-Flask/menu.jpg" height="500">
 View Post : 
-<img src="Blog-Flask/viewpost.jpg" height="1000">
+<img src="Blog-Flask/viewpost.jpg" height="500">
 Update Account Information : 
-<img src="Blog-Flask/updateaccountinfo.jpg" height="1000">
+<img src="Blog-Flask/updateaccountinfo.jpg" height="500">
