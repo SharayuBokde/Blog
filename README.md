@@ -10,3 +10,11 @@
   <li>Bootstrap</li>
   <li>SQLAlchemy</li>
 </ul>
+<h3>Some images of the project : </h3>
+<img src="Blog-Flask/home.jpg">
+<img src="Blog-Flask/register.jpg">
+<img src="Blog-Flask/signup.jpg">
+<img src="Blog-Flask/login.jpg">
+<img src="Blog-Flask/menu.jpg">
+<img src="Blog-Flask/viewpost.jpg">
+<img src="Blog-Flask/updateaccountinfo.jpg">
