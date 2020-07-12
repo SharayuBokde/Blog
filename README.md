@@ -15,16 +15,16 @@ Homepage :
 <h3 align="center"><img src="Blog-Flask/home.jpg" height=auto width=85%></h3>
 
 Register : 
-<h3 align="center"><img src="Blog-Flask/signup.jpg" height=auto width=85%></h3>
-<h3 align="center"><img src="Blog-Flask/register.jpg" height=auto width=85%></h3>
+<h3 align="center"><img src="Blog-Flask/signup.jpg" height=auto width=100%></h3>
+<h3 align="center"><img src="Blog-Flask/register.jpg" height=auto width=100%></h3>
 
 Login : 
-<h3 align="center"><img src="Blog-Flask/login.jpg" height=auto width=85%></h3>
-<h3 align="center"><img src="Blog-Flask/menu.jpg" height=auto width=85%></h3>
+<h3 align="center"><img src="Blog-Flask/login.jpg" height=auto width=100%></h3>
+<h3 align="center"><img src="Blog-Flask/menu.jpg" height=auto width=100%></h3>
 
 View Post : 
-<h3 align="center"><img src="Blog-Flask/viewpost.jpg" height=auto width=85%></h3>
+<h3 align="center"><img src="Blog-Flask/viewpost.jpg" height=auto width=100%></h3>
 
 Update Account Information :
-<h3 align="center"><img src="Blog-Flask/updateaccountinfo.jpg" height=auto width=85%></h3>
+<h3 align="center"><img src="Blog-Flask/updateaccountinfo.jpg" height=auto width=100%></h3>
 
