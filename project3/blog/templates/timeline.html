@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block content %}
+
+{% for post in posts%}
+<div class="conatiner">
+  <div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+          <a class="anchor_title" href="{{ url_for('viewpost', post_id=post.id) }}"><h5 class="card-title">{{post.title}}</h5></a>
+          <h6 class="card-text">{{post.author.username}}</h6>
+          <hr>
+          <p class="card-text">{{post.content}}</p>
+          <hr>
+          <h6 class="card-text">{{post.date.strftime('%B %m, %Y')}}</h6>
+        </div>
+    </div>
+    
+  </div>
+</div>
+{% endfor%}
+{% endblock content %}
+

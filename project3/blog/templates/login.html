@@ -1,0 +1,26 @@
+{% extends 'layout.html'%}
+{% block content%}
+<div class="loginbox">
+<form method="POST" action="">
+        {{form.hidden_tag()}}
+        <div class="form-group">
+          <label>{{form.email.label}}</label>
+          {{form.email(class="form-control")}}
+        </div>
+        <div class="form-group">
+                <label>{{form.password.label}}</label>
+                {{form.password(class="form-control")}}
+        </div>
+        <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Remember me</label>
+        </div>
+        <a href="{{url_for('signup')}}"> Don't have an Account? </a>
+        <br>
+        <br>
+        <div class="form-group">
+                {{form.submit(class="btn btn-primary")}}
+    </div>
+</form>
+</div>
+{% endblock%}
